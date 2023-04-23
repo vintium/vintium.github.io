@@ -23,7 +23,7 @@ body {
     text-align: right;
   }
 
-  .figure {
+  figure {
     margin: 1em auto;
     width: min-content;
   }
