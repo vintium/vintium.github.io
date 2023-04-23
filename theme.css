@@ -21,7 +21,8 @@ td {
 
 figure {
   margin: 1em auto;
-  width: min-content;
+  width: fit-content;
+  padding: 0em 2em;
 }
 
 .rowlabel {
