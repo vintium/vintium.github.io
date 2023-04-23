@@ -4,26 +4,27 @@ body {
     margin-right: auto;
     background-color: #4E5283;
     color: white;
-  }
+}
 
-  a {
-    color: #EAE5FF;
-  }
+a {
+    color: #EAE5FF;  
+}
 
-  table,
-  th,
-  td {
-    padding: 0.5em;
-    text-align: center;
-    border: 2px solid #EAE5FF;
-    border-collapse: collapse;
-  }
+table,
+th,
+td {
+  padding: 0.5em;
+  text-align: center;
+  border: 2px solid #EAE5FF;
+  border-collapse: collapse;
+}
 
-  .rowlabel {
+figure {
+  margin: 1em auto;
+  width: min-content;
+}
+
+.rowlabel {
     text-align: right;
-  }
+}
 
-  figure {
-    margin: 1em auto;
-    width: min-content;
-  }
