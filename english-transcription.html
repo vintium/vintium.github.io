@@ -2,49 +2,18 @@
 <html>
 
 <head>
+  <meta charset="UTF-8" />
+  <title>english transcription</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="fonts/andika-font.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
   <style>
-    html {
-      font-feature-settings: "ss13" 1;
-      font-family: 'Andika', 'Gentium Plus', 'Gentium Basic', 'Gentium';
-      font-size: 20px;
-    }
-
-    body {
-      max-width: 50em;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #4E5283;
-      color: white;
-    }
-
-    a {
-      color: #EAE5FF;
-    }
-
-    table,
-    th,
-    td {
-      padding: 0.5em;
-      text-align: center;
-      border: 2px solid #EAE5FF;
-      border-collapse: collapse;
-    }
-
-    .label {
-      text-align: right;
-    }
-
     .vowel-charts {
-      margin: 1em auto;
-      width: fit-content;
       display: grid;
       grid-template-columns: auto auto auto auto;
       gap: 1em;
-    }
-
-    .consonant-chart {
-      margin: 1em auto;
-      width: fit-content;
     }
   </style>
 </head>
@@ -52,10 +21,12 @@
 <body>
   <h1>the phonetic symbols i use for my english :3</h1>
   <p>
-    the traditional system of IPA symbols for transcribing General American is not very good, mostly because it
-    inherited all of the problems that the transcription of traditional British Recieved Pronunciation had. I learned
+    the <a href="https://en.wikipedia.org/wiki/General_American_English#Phonology">traditional system of IPA symbols for
+      transcribing General American English</a> is not very good, mostly because
+    it
+    inherited all of the problems that the system for traditional British Recieved Pronunciation English had. I learned
     about how bad that situation is from <a href="https://www.youtube.com/watch?v=gtnlGH055TA">this video</a>, and I
-    decided to apply the same principles laid out there to American English. As well as that, I made some other
+    decided to apply the same principles laid out there to American English. I also made some other
     alterations, such allowing for <a href="https://www.youtube.com/watch?v=wt66Je3o0Qg">stressed schwa</a>, as my
     accent does not distinguish [ʌ] from /ə/ phonemically. I also have the <em>Cot, Caught</em> merger, so that is
     reflected here, as well as the <em>Merry, Mary, Marry</em> merger.
@@ -67,7 +38,7 @@
   vowels that can occur before /ɹ/ are listed, including the syllabic /ɚ/.
 
 
-  <div class="vowel-charts">
+  <figure class="vowel-charts">
     <table>
       <tr>
         <td>Anywhere</td>
@@ -132,27 +103,27 @@
       </tr>
     </table>
 
-  </div>
+  </figure>
   Also note that [ɤl] is allophonic to /əl/, and that /əl/ is realized as syllabic [l̩].
   <h2>consonants</h2>
   <p>
     My English consonants are in agreement with General American. This is not particularly surprising as consonantal
     variation between English dialects is usually minimal.
   </p>
-  <div class="consonant-chart">
+  <figure class="consonant-chart">
     <table>
       <tr>
         <td></td>
-        <td class="label">Labial</td>
-        <td class="label">Dental</td>
-        <td class="label">Alveolar</td>
-        <td class="label">Palato-Alveolar</td>
-        <td class="label">Palatal</td>
-        <td class="label">Velar</td>
-        <td class="label">Glottal</td>
+        <td>Labial</td>
+        <td>Dental</td>
+        <td>Alveolar</td>
+        <td>Palato-Alveolar</td>
+        <td>Palatal</td>
+        <td>Velar</td>
+        <td>Glottal</td>
       </tr>
       <tr>
-        <td class="label">Stop</td>
+        <td class="rowlabel">Stop</td>
         <td>p b</td>
         <td></td>
         <td>t d</td>
@@ -162,7 +133,7 @@
         <td>ʔ</td>
       </tr>
       <tr>
-        <td class="label">Fricative</td>
+        <td class="rowlabel">Fricative</td>
         <td>f v</td>
         <td>θ ð</td>
         <td>s z</td>
@@ -172,7 +143,7 @@
         <td>h</td>
       </tr>
       <tr>
-        <td class="label">Nasal</td>
+        <td class="rowlabel">Nasal</td>
         <td>m</td>
         <td></td>
         <td>n</td>
@@ -182,7 +153,7 @@
         <td></td>
       </tr>
       <tr>
-        <td class="label">Approximant</td>
+        <td class="rowlabel">Approximant</td>
         <td></td>
         <td></td>
         <td>ɹ</td>
@@ -192,7 +163,7 @@
         <td></td>
       </tr>
       <tr>
-        <td class="label">Lateral</td>
+        <td class="rowlabel">Lateral</td>
         <td></td>
         <td></td>
         <td>l</td>
@@ -202,7 +173,7 @@
         <td></td>
       </tr>
     </table>
-  </div>
+  </figure>
 </body>
 
 </html>
