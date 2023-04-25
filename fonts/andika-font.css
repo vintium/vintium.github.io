@@ -1,20 +1,23 @@
 /* use Andika - Regular in .woff2 format */
 @font-face {
-  font-family: AndikaW;
-  src: url(Andika-Regular.woff2);
+	font-family: AndikaW;
+	src: url(Andika-Regular.woff2);
 }
+
 /* use Andika - Italic in .woff2 format */
 @font-face {
-  font-family: AndikaW;
-  font-style: italic;
-  src: url(Andika-Italic.woff2);
+	font-family: AndikaW;
+	font-style: italic;
+	src: url(Andika-Italic.woff2);
 }
+
 /* use Andika - Bold in .woff2 format */
 @font-face {
 	font-family: AndikaW;
 	font-weight: bold;
 	src: url(Andika-Bold.woff2);
 }
+
 /* use Andika - Bold Italic in .woff2 format */
 @font-face {
 	font-family: AndikaW;
@@ -27,5 +30,5 @@
 body {
 	font-family: AndikaW, sans-serif;
 	font-feature-settings: "ss13" 1;
-	font-size: 20px;
+	font-size: 16px;
 }
