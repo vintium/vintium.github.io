@@ -1,15 +1,22 @@
+:root {
+  --bg-color: #4E5283;
+  --text-color: white;
+  --accent-text: #e0dbf5;
+}
+
+
 body {
   max-width: 50em;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
-  background-color: #4E5283;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 a {
-  color: #EAE5FF;
+  color: var(--accent-text);
 }
 
 table,
@@ -17,7 +24,7 @@ th,
 td {
   padding: 0.5em;
   text-align: center;
-  border: 2px solid #EAE5FF;
+  border: 2px solid var(--accent-text);
   border-collapse: collapse;
 }
 
